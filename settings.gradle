@@ -1,0 +1,2 @@
+rootProject.name = "Trounce"
+include ':app'

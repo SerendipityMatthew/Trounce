@@ -82,12 +82,12 @@ fun wireGuardItemList(modifier: Modifier) {
             "",
             "",
         ),
-        peer = Peer(
+        peerList = listOf(Peer(
             "",
             "",
             "",
             ""
-        )
+        )),
     )
     val itemsIndexedList = listOf(wireGuard, wireGuard, wireGuard, wireGuard, wireGuard)
 

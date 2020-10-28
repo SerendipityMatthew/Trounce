@@ -5,7 +5,7 @@ data class WireGuard(
     val id: String,
     var isInActive: Boolean,
     var wireGuardInterface: WireGuardInterface,
-    var peer: Peer,
+    var peerList: List<Peer>,
 )
 
 data class WireGuardInterface(

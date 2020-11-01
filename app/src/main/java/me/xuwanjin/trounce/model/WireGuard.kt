@@ -12,7 +12,7 @@ data class WireGuardInterface(
     val name: String,
     val publicKey: String,
     val addresses: String,
-    val DnsServers: String,
+    val dnsServers: String,
 )
 
 data class Peer(
